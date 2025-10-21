@@ -361,3 +361,226 @@
     </script>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生请假管理系统-管理员首页</title>
+    <style>
+        body {
+            font-family: "SimHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 220px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            box-sizing: border-box;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: normal;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar li {
+            padding: 0.8rem 2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .sidebar li:hover, .sidebar li.active {
+            background-color: #34495e;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        .main {
+            flex: 1;
+            padding: 2rem;
+            background-color: #fff;
+        }
+        .user-info {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .user-info p {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>功能菜单</h2>
+            <ul>
+                <li class="active"><a href="javascript:;" onclick="showContent('home')">首页</a></li>
+                <li><a href="javascript:;" onclick="showContent('user')">系统用户管理</a>
+                    <ul>
+                        <li><a href="javascript:;" onclick="showContent('student-manage')">学生管理</a></li>
+                        <li><a href="javascript:;" onclick="showContent('student-query')">学生查询</a></li>
+                        <li><a href="javascript:;" onclick="showContent('teacher-manage')">教师管理</a></li>
+                        <li><a href="javascript:;" onclick="showContent('teacher-query')">教师查询</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" onclick="showContent('class')">班级管理</a>
+                    <ul>
+                        <li><a href="javascript:;" onclick="showContent('class-query')">班级查询</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" onclick="showContent('leave')">请假申请管理</a>
+                    <ul>
+                        <li><a href="javascript:;" onclick="showContent('leave-query')">请假申请查询</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" onclick="showContent('student-stat')">学生统计</a>
+                    <ul>
+                        <li><a href="javascript:;" onclick="showContent('student-gender')">按性别统计</a></li>
+                        <li><a href="javascript:;" onclick="showContent('student-class')">按班级统计</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" onclick="showContent('teacher-stat')">教师统计</a>
+                    <ul>
+                        <li><a href="javascript:;" onclick="showContent('teacher-gender')">按性别统计</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;" onclick="showContent('password')">修改密码</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="user-info">
+                <p>XX，你好</p>
+                <p>昵称：XX &nbsp;&nbsp; 身份：管理员</p>
+                <p>时间：<script>document.write(new Date().toLocaleString())</script></p>
+            </div>
+
+            <!-- 首页内容 -->
+            <div id="home" class="content active">
+                <h3>欢迎使用学生请假管理系统</h3>
+                <p>请从左侧菜单选择功能操作...</p>
+            </div>
+
+            <!-- 系统用户管理-学生管理 -->
+            <div id="student-manage" class="content">
+                <h3>学生管理</h3>
+                <p>这里可以添加、编辑、删除学生信息...</p>
+            </div>
+
+            <!-- 系统用户管理-学生查询 -->
+            <div id="student-query" class="content">
+                <h3>学生查询</h3>
+                <p>请输入学号或姓名查询学生信息...</p>
+            </div>
+
+            <!-- 系统用户管理-教师管理 -->
+            <div id="teacher-manage" class="content">
+                <h3>教师管理</h3>
+                <p>这里可以添加、编辑、删除教师信息...</p>
+            </div>
+
+            <!-- 系统用户管理-教师查询 -->
+            <div id="teacher-query" class="content">
+                <h3>教师查询</h3>
+                <p>请输入工号或姓名查询教师信息...</p>
+            </div>
+
+            <!-- 班级管理-班级查询 -->
+            <div id="class-query" class="content">
+                <h3>班级查询</h3>
+                <p>请输入班级名称查询班级信息...</p>
+            </div>
+
+            <!-- 请假申请管理-请假申请查询 -->
+            <div id="leave-query" class="content">
+                <h3>请假申请查询</h3>
+                <p>请输入学生姓名或学号查询请假申请...</p>
+            </div>
+
+            <!-- 学生统计-按性别统计 -->
+            <div id="student-gender" class="content">
+                <h3>学生按性别统计</h3>
+                <p>男生：XX人，女生：XX人...</p>
+            </div>
+
+            <!-- 学生统计-按班级统计 -->
+            <div id="student-class" class="content">
+                <h3>学生按班级统计</h3>
+                <p>一班：XX人，二班：XX人...</p>
+            </div>
+
+            <!-- 教师统计-按性别统计 -->
+            <div id="teacher-gender" class="content">
+                <h3>教师按性别统计</h3>
+                <p>男教师：XX人，女教师：XX人...</p>
+            </div>
+
+            <!-- 修改密码 -->
+            <div id="password" class="content">
+                <h3>修改密码</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="oldPwd">原密码</label>
+                        <input type="password" id="oldPwd" placeholder="请输入原密码" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newPwd">新密码</label>
+                        <input type="password" id="newPwd" placeholder="请输入新密码" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPwd">确认新密码</label>
+                        <input type="password" id="confirmPwd" placeholder="请再次输入新密码" required>
+                    </div>
+                    <button type="submit">提交修改</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showContent(id) {
+            // 隐藏所有内容
+            const contents = document.getElementsByClassName('content');
+            for (let i = 0; i < contents.length; i++) {
+                contents[i].classList.remove('active');
+            }
+
+            // 激活当前内容
+            document.getElementById(id).classList.add('active');
+
+            // 激活当前菜单
+            const sidebarItems = document.querySelectorAll('.sidebar li');
+            sidebarItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.querySelector(`a[onclick="showContent('${id}')"]`)) {
+                    item.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
