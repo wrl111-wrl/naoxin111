@@ -1,0 +1,55 @@
+import request from '@/utils/request';
+// list
+export const jiaoshixinxiList = (params) => {
+    return request({
+        url: '/jiaoshixinxi/page',
+        method: 'post',
+        data: params,
+    })
+};
+export const jiaoshixinxiDetail = (id) => {
+    return request({
+        url: '/jiaoshixinxi/'+id,
+        method: 'get',
+    })
+};
+// add
+export const jiaoshixinxiSave = (params) => {
+    return request({
+        url: '/jiaoshixinxi',
+        method: 'post',
+        data: params,
+    })
+};
+// updt
+export const jiaoshixinxiEdit = (params) => {
+    return request({
+        url: '/jiaoshixinxi',
+        method: 'put',
+        data: params,
+    })
+};
+// delete
+export const jiaoshixinxiDelete = (id) => {
+    return request({
+        url: '/jiaoshixinxi/'+id,
+        method: 'delete',
+    })
+};
+// pldel
+export const jiaoshixinxiDeleteList = (jiaoshixinxis) => {
+    return request({
+        url: '/jiaoshixinxi/deleteList',
+        data:{list:jiaoshixinxis},
+        method: 'post',
+    })
+};
+// all
+export const jiaoshixinxiAllList = () => {
+    return request({
+        url: '/jiaoshixinxi',
+        method: 'get',
+    })
+};
+export const jiaoshixinxiUpdatePassword = (params) =>{ return request({ url: `/jiaoshixinxi/updatePassword`, method: 'put',data: {...params,mima:params.password}, })};
+export const jiaoshixinxi_tj_xingbie = () => {return request({url: '/jiaoshixinxi/jiaoshixinxi_tj_xingbie',method: 'get',})};
