@@ -1,0 +1,106 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["xuesheng"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xueshengxinxigrzlgl",
+			"name": "xueshengxinxigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["xuesheng"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xueshengxinxi_updt2/1",
+					"name": "xueshengxinxi_updt2",
+					"component": "xueshengxinxi/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["xuesheng"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/qingjiashenqingxueshenggl",
+			"name": "qingjiashenqingxueshenggl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "请假申请管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["xuesheng"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/qingjiashenqingxuesheng/1",
+					"name": "qingjiashenqing",
+					"component": "qingjiashenqing/index",
+					"meta": {
+						"title": "请假申请查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["xuesheng"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["xuesheng"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

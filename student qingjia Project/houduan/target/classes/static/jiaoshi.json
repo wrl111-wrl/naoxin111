@@ -1,0 +1,105 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["jiaoshi"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/jiaoshixinxigrzlgl",
+			"name": "jiaoshixinxigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["jiaoshi"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jiaoshixinxi_updt2/1",
+					"name": "jiaoshixinxi_updt2",
+					"component": "jiaoshixinxi/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["jiaoshi"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		{
+			"path": "/qingjiashenqingglygl",
+			"name": "qingjiashenqingglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "请假申请管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["jiaoshi"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/qingjiashenqing/1",
+					"name": "qingjiashenqing",
+					"component": "qingjiashenqing/index",
+					"meta": {
+						"title": "请假申请查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["jiaoshi"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["jiaoshi"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
