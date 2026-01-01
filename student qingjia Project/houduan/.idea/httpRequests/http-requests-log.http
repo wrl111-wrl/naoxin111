@@ -1,0 +1,340 @@
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 328
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "",
+  "qishishijian": "",
+  "zhongzhishijian": "",
+  "beizhu": "s",
+  "issh": "",
+  "shhf": "",
+  "addtime": ""
+}
+
+<> 2025-12-29T001155.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 332
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 3,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001134.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 332
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 3,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001059.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 332
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001049.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 332
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001035.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 332
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001031-1.200.json
+
+###
+
+POST http://localhost:8888/guanliyuan/login
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "yonghuming": "admin",
+  "mima": "123456",
+  "newPassword": "",
+  "addtime": ""
+}
+
+<> 2025-12-29T001031.200.json
+
+###
+
+GET http://localhost:8888/banjixinxi/getExcel
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> chaoba.xlsx
+
+###
+
+GET https://zhudageshenghuo.cn/sqx_fast/invite/mpCreateQr?relation={9KSLFX}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-12-29T001030.200.txt
+
+###
+
+POST https://zhudageshenghuo.cn/sqx_fast/app/Login/loginApp?phone={15192438830}&password={pin12348}Content-Type: application/x-www-form-urlencoded
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-12-29T001029.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 333
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "s",
+  "zhongzhishijian": "s",
+  "beizhu": "s",
+  "issh": "s",
+  "shhf": "s",
+  "addtime": ""
+}
+
+<> 2025-12-29T001017.200.json
+
+###
+
+POST http://localhost:8888/qingjiashenqing
+Content-Type: application/json
+Content-Length: 328
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "list": [],
+  "pages": 0,
+  "total": 0,
+  "current": 0,
+  "currentNum": 0,
+  "id": 0,
+  "qingjiabianhao": "",
+  "xuehao": "",
+  "xueshengxingming": "",
+  "lianxidianhua": "",
+  "banji": "s",
+  "qingjiayuanyin": "s",
+  "qishishijian": "",
+  "zhongzhishijian": "",
+  "beizhu": "",
+  "issh": "",
+  "shhf": "",
+  "addtime": ""
+}
+
+<> 2025-12-29T000905.200.json
+
+###
+
+POST http://localhost:8888/guanliyuan/login
+Content-Type: application/json
+Content-Length: 50
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+  "yonghuming": "admin",
+  "mima": "123456",
+
+}
+
+<> 2025-12-28T101647.200.json
+
+###
+
+POST http://localhost:8888/guanliyuan/login
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "yonghuming": "admin",
+  "mima": "123456",
+  "newPassword": "",
+  "addtime": ""
+}
+
+<> 2025-12-28T101556.200.json
+
+###
+
