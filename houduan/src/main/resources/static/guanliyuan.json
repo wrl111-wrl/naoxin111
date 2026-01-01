@@ -1,0 +1,202 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/xueshengglygl",
+			"name": "xueshengglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "学生管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xueshengxinxi/1",
+					"name": "xueshengxinxi",
+					"component": "xueshengxinxi/index",
+					"meta": {
+						"title": "学生查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/jiaoshiglygl",
+			"name": "jiaoshiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "教师管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jiaoshixinxi/1",
+					"name": "jiaoshixinxi",
+					"component": "jiaoshixinxi/index",
+					"meta": {
+						"title": "教师查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/banjiglygl",
+			"name": "banjiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "班级管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/banjixinxi/1",
+					"name": "banjixinxi",
+					"component": "banjixinxi/index",
+					"meta": {
+						"title": "班级查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/qingjiashenqingglygl",
+			"name": "qingjiashenqingglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "请假申请管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/qingjiashenqing/1",
+					"name": "qingjiashenqing",
+					"component": "qingjiashenqing/index",
+					"meta": {
+						"title": "请假申请查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

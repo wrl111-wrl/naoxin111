@@ -1,0 +1,99 @@
+package com.example.entity;
+
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.util.Date;
+
+
+@TableName("xueshengxinxi")
+@Data
+public class Xueshengxinxi {
+    @TableId(value = "id",type = IdType.AUTO)
+    private Integer id;
+	
+	@TableField(value = "xuehao")	private String xuehao;	@TableField(value = "mima")	private String mima;	@TableField(value = "xueshengxingming")	private String xueshengxingming;	@TableField(value = "xingbie")	private Boolean xingbie;	@TableField(value = "shenfenzheng")	private String shenfenzheng;	@TableField(value = "dianhua")	private String dianhua;	@TableField(value = "banji")	private String banji;	@TableField(value = "jiguan")	private String jiguan;	@TableField(value = "zhaopian")	private String zhaopian;	@TableField(value = "beizhu")	private String beizhu;	@TableField(exist = false)	private String newPassword;	
+    
+	
+	
+    @TableField(value = "addtime")
+    private Date addtime;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+	public String getXuehao() {
+        return xuehao;
+    }
+    public void setXuehao(String xuehao) {
+		this.xuehao = xuehao;
+    }	public String getMima() {
+        return mima;
+    }
+    public void setMima(String mima) {
+		this.mima = mima;
+    }	public String getXueshengxingming() {
+        return xueshengxingming;
+    }
+    public void setXueshengxingming(String xueshengxingming) {
+		this.xueshengxingming = xueshengxingming;
+    }	public Boolean getXingbie() {
+        return xingbie;
+    }
+    public void setXingbie(Boolean xingbie) {
+		this.xingbie = xingbie;
+    }	public String getShenfenzheng() {
+        return shenfenzheng;
+    }
+    public void setShenfenzheng(String shenfenzheng) {
+		this.shenfenzheng = shenfenzheng;
+    }	public String getDianhua() {
+        return dianhua;
+    }
+    public void setDianhua(String dianhua) {
+		this.dianhua = dianhua;
+    }	public String getBanji() {
+        return banji;
+    }
+    public void setBanji(String banji) {
+		this.banji = banji;
+    }	public String getJiguan() {
+        return jiguan;
+    }
+    public void setJiguan(String jiguan) {
+		this.jiguan = jiguan;
+    }	public String getZhaopian() {
+        return zhaopian;
+    }
+    public void setZhaopian(String zhaopian) {
+		this.zhaopian = zhaopian;
+    }	public String getBeizhu() {
+        return beizhu;
+    }
+    public void setBeizhu(String beizhu) {
+		this.beizhu = beizhu;
+    }	public String getNewPassword() {
+        return newPassword;
+    }
+    public void setNewPassword(String newPassword) {
+		this.newPassword = newPassword;
+    }	
+	
+
+    public Date getAddtime() {
+        return addtime;
+    }
+
+    public void setAddtme(Date addtime) {
+        this.addtime = addtime;
+    }
+}

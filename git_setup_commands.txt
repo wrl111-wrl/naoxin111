@@ -1,0 +1,31 @@
+# Git配置命令
+# 配置用户信息（替换为你的真实信息）
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱@example.com"
+
+# 检查配置
+git config --list
+
+# 在houduan目录下初始化Git仓库
+cd d:/student qingjia Project/houduan
+git init
+
+# 添加所有文件
+git add .
+
+# 提交文件
+git commit -m "feat: 初始化图书管理系统后端项目
+
+- 添加Spring Boot 2.6.6项目结构
+- 集成MyBatis-Plus和MySQL
+- 支持用户角色权限管理
+- 添加完整的README文档和.gitignore配置"
+
+# 重命名主分支为main
+git branch -M main
+
+# 添加GitHub远程仓库（替换为你的仓库地址）
+git remote add origin https://github.com/你的用户名/你的仓库名.git
+
+# 推送到GitHub
+git push -u origin main
