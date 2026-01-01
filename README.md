@@ -56,7 +56,7 @@ npm run build  # Build production environment package
 npm run dev
 5) Access the system
 Default address: http://localhost:8080 (backend) / http://localhost:80 (frontend, need to configure Nginx proxy)
-Initial account: Administrator admin/admin123, student student1/123456
+Initial account: Administrator admin/admin, student xuehao/123456,teacher gonghao/123456
 
 # User Guide
 
@@ -92,9 +92,9 @@ Initial version, including basic functions of leave application, approval, and d
 
 # Contact Information
 
-Project Maintenance: zhezhishizhanwei@aaa.com
-Feedback: zheyeshizhanwei@aaa.com
-Technical Support: zhehaishizhanwei@aaa.com
+Project Maintenance: 17816306303@163.com
+Feedback: 17816306303@163.com
+Technical Support: 17816306303@163.com
 
 # Open Source License
 
